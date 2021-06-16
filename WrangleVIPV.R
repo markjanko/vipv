@@ -16,6 +16,7 @@ setwd("C:/Users/markj/Dropbox/work/projects/janko/violence_ipv")
 library(tidyverse)
 library(sf)
 library(spNNGP)
+library(INLA)
 
 ### Read in Violent Conflict Data
 v <- read.csv("C:/Users/markj/Dropbox/work/projects/janko/violence_ipv/data/ged201-csv/ged201.csv")
